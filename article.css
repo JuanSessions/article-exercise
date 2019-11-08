@@ -1,0 +1,41 @@
+body {
+    font-size: 1.5rem;
+}
+
+#main-img {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.centered {
+    /* text-align: center; */
+    width: 65%;
+    margin: 0 auto;
+}
+
+#block-line {
+    border-left: 2px solid black;
+    /*width: 40%;*/
+    font-style: italic;
+    padding: 1rem 2rem;
+}
+
+blockquote {
+    font-size: 2rem;
+    color: rgb(92, 85, 85);
+}
+
+.quote-hover {
+    background-color: rgb(177, 168, 168);
+    display: inline;
+    line-height: 3rem;
+}
+
+.quote-hover:hover {
+    background-color: rgb(65, 55, 55);
+}
+
+pre {
+    background-color: rgb(170, 154, 154);
+    padding: 0.8rem;
+}
